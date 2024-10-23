@@ -6,7 +6,6 @@ import Home from './Screens/Home';
 function App() {
   return (
     <div className="App">
-      {/* <Navbar/> */}
       <Home />
     </div>
   );

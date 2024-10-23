@@ -1,0 +1,57 @@
+.page-container {
+  padding: 20px;
+  background-color: #f4f6f8;
+  min-height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.ticket-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.group-column {
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.header-details {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.user-circle {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.action-icons {
+  display: flex;
+  gap: 8px;
+}
+
+.action-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.ticket-list {
+  margin-top: 16px;
+}
+
+.icon-holder {
+  margin-right: 4px;
+}

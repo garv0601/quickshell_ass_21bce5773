@@ -1,0 +1,78 @@
+/* Navbar Styles for Dark Theme */
+.navbar-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: white; /* Dark background for the navbar */
+  border-bottom: 2px solid #374151; /* Subtle border */
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border: 1px solid #4b5563; /* Darker border */
+  border-radius: 8px;
+  background-color: white; /* Dark button background */
+  color: black; /* Light text color */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #4b5563; /* Lighter hover state */
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 8px;
+  width: 150%;
+  background-color: #ffffff; /* Dark background for dropdown */
+  border: 1px solid #4b5563; /* Darker border */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.dropdown-content {
+  padding: 16px;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #9ca3af; /* Light gray text */
+  min-width: max-content;
+  padding-right: 20px;
+}
+
+.select {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #4b5563;
+  border-radius: 8px;
+  background-color: white; /* Dark dropdown background */
+  color: black; /* Light text color */
+  font-size: 14px;
+}
+
+.select:focus {
+  outline: none;
+  border-color: #6366f1; /* Focus border */
+}
+
+.select option {
+  background-color: #111827; /* Dark option background */
+  color: #e5e7eb; /* Light text color */
+}
